@@ -7,9 +7,8 @@ type Props = {
 
 const MaritalStatus = ({ maritalStatusValueHandle }: Props) => {
   const [status, setStatus] = useState([
-    { id: 1, title: 'Finished', current: false },
-    { id: 2, title: 'Excused', current: false },
-    { id: 3, title: 'Under Graduation', current: false },
+    { id: 1, title: 'Single', current: false },
+    { id: 2, title: 'Married', current: false },
   ]);
 
   const selectHandler = (title: string) => {
